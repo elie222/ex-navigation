@@ -1,5 +1,5 @@
 {
-  "name": "@elie222/ex-navigation",
+  "name": "@expo/ex-navigation",
   "version": "5.0.0",
   "description": "Route-centric navigation library for React Native.",
   "main": "./src/ExNavigation.js",
