@@ -13,9 +13,10 @@ import { unsupportedNativeView } from '../ExUnsupportedNativeView';
 let BlurView;
 let expoModule = global.__exponent || global.__expo;
 if (expoModule) {
-  BlurView = expoModule.BlurView
-    ? expoModule.BlurView
-    : expoModule.Components.BlurView;
+  BlurView =
+    expoModule.BlurView ||
+    (expoModule.Components && expoModule.Components.BlurView) ||
+    unsupportedNativeView("BlurView");
 } else {
   BlurView = unsupportedNativeView('BlurView');
 }

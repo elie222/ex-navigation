@@ -1,6 +1,6 @@
 {
-  "name": "@expo/ex-navigation",
-  "version": "4.3.0",
+  "name": "@elie222/ex-navigation",
+  "version": "5.0.0",
   "description": "Route-centric navigation library for React Native.",
   "main": "./src/ExNavigation.js",
   "files": [
@@ -11,7 +11,7 @@
     "lint": "eslint ./src ./example",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/expo/ex-navigation.git",
+  "repository": "https://github.com/elie222/ex-navigation.git",
   "keywords": [
     "react-native",
     "navigation",
